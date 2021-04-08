@@ -32,7 +32,7 @@ export default {
     margin: 3px;
 }
 .layout{
-    padding: 2% 8%;
+    padding: 0 10%;
 }
     
 

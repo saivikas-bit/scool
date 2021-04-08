@@ -1,17 +1,17 @@
 <template>
   <div class="layout">
-      <div class="title">
+      <!-- <div class="title">
           HeAR FROM THE MENTOR
-      </div>
-      <div class="video">
+      </div> -->
+      <!-- <div class="video"> -->
       <vimeo-player ref="player" class="vimeo" :video-id="videoID" @ready="onReady"  :options="{ responsive: true }"></vimeo-player>
-      </div>
-      <div class="list">
+      <!-- </div> -->
+      <!-- <div class="list">
           <img src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-featured.png" alt="">
           <img src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-featured.png" alt="">
           <img src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-featured.png" alt="">
           <img src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-featured.png" alt="">
-      </div>
+      </div> -->
 
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
     data() {
 		return {
 			videoID: '38648446',
-			height: 500,
+			// height: 500,
 			playerReady: false
 		}
 	},
@@ -43,9 +43,9 @@ export default {
 </script>
 
 <style scoped>
-.layout{
+/* .layout{
     padding: 4% 8%;
-}
+} */
 .title{
     text-align: center;
     font-size: 18px;
@@ -62,8 +62,8 @@ export default {
     border-radius: 8px;
 }
 .vimeo{
-    height: 40vh;
-    width: 40vw;
+    height: 50vh;
+    width: 45vw;
     border-radius: 8px;
 }
 .list{

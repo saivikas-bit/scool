@@ -38,7 +38,7 @@ export default {
     font-weight: bold;
 }
 .layout{
-    padding-left: 8%;
+    padding-left: 2%;
     padding-top: 2%;
     /* padding: 2% 8%; */
 }

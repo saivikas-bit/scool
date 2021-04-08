@@ -39,7 +39,7 @@ export default {
     display: flex;
 }
 .layout{
-    padding: 2% 8%;
+    padding: 2% 2%;
     margin-top: 5%;
 }
 .title{
