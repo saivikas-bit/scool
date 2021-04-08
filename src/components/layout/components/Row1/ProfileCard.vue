@@ -77,5 +77,10 @@ img{
     margin-top: 4px;
     margin-right: 1.5rem;
 }
+@media screen and (max-width: 599px) {
+    .card{
+    display: none;
+}
+}
 
 </style>

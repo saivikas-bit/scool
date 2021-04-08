@@ -73,4 +73,18 @@ align-items: center;
     opacity: 50%;
 }
 
+@media screen and (max-width: 599px) {
+ .sub_sets{
+     display: none;
+ }
+ .container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 18px;
+}
+
+}
+
+
 </style>

@@ -79,4 +79,19 @@ export default {
     margin-top: 4px;
 }
 
+@media screen and (max-width: 599px) {
+    .card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 18vw;
+    height: 55vh;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin: 2rem 0;
+    
+}
+ 
+
+}
+
+
 </style>

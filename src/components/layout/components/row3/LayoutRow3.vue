@@ -1,10 +1,10 @@
 <template>
 <div class="layout">
     <div class="md-layout md-gutter">
-    <div class="md-layout-item md-size-55">
+    <div class="md-layout-item md-size-55 md-xsmall-size-100">
     <container-video></container-video>
     </div>
-    <div class="md-layout-item md-size-35">
+    <div class="md-layout-item md-size-35 md-xsmall-size-100">
         <emc-card></emc-card>
     </div>
   </div>

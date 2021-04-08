@@ -51,5 +51,17 @@ ul{
     padding: 0;
     margin: 1rem;
 }
+@media screen and (max-width: 599px) {
+    .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    /* margin: 12px 0; */
+    margin-top: 1rem;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 1rem;
+}
+}
 
 </style>

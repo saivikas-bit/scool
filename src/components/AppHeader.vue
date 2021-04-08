@@ -54,6 +54,16 @@ ul{
     border-radius: 5px;
 /* margin-right: 25px; */
 }
+@media screen and (max-width: 599px) {
+ 
+ul{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 10vh;
+}
+}
 
 </style>
 

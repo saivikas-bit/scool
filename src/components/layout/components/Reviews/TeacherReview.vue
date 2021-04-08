@@ -106,4 +106,17 @@ export default {
     margin-left: 1rem;
 }
 
+@media screen and (max-width: 599px) {
+ .review{
+    /* border: 2px solid black; */
+    height: 90vh;
+    margin-right: 13%;
+  
+}
+.layout{
+    margin-top: 1rem;
+}
+
+}
+
 </style>

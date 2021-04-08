@@ -81,6 +81,13 @@ img{
     border-radius: 8px;
     margin-bottom: 1%;
 }
+@media screen and (max-width: 599px) {
+ .vimeo{
+    height: 34vh;
+    width: 88vw;
+    border-radius: 8px;
+}
+}
 
 
 ::-webkit-scrollbar-track

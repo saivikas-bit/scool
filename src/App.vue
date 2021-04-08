@@ -63,5 +63,11 @@ export default {
 iframe{
     border-radius: 12px;
 }
+@media screen and (max-width: 599px) {
+    
+.main_body{
+    padding: 0 1rem;
+}
+}
 
 </style>

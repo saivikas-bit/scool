@@ -1,11 +1,11 @@
 <template>
 <div class="layout">
     <div class="md-layout md-gutter">
-    <div class="md-layout-item">
+    <div class="md-layout-item md-xsmall-size-100">
       <layout-startup></layout-startup>
       <breif-desc></breif-desc>
     </div>
-    <div class="md-layout-item md-size-35">
+    <div class="md-layout-item md-size-35 md-xsmall-size-100">
       <startup-profile></startup-profile>
       
     </div>

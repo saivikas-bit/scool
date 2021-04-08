@@ -4,11 +4,11 @@
     <div class="title">
         Related Mentors
     </div>
-    <div class="container">
-        <mentor-card :image="link1" name="Deepak Shapeti" qualification="Obsessive Serial Entrepreneur" ></mentor-card>
-        <mentor-card :image="link2" name="Danish Sheikh" qualification="Charisma Coach" ></mentor-card>
-        <mentor-card :image="link3" name="Lavanyaa Dar" qualification="Beauty Entrepreneur" ></mentor-card>
-        <mentor-card :image="link4" name="Lavanyaa Dar" qualification="Beauty Entrepreneur" ></mentor-card>
+    <div class="container md-layout">
+        <mentor-card :image="link1" name="Deepak Shapeti" qualification="Obsessive Serial Entrepreneur" class="md-layout-item md-xsmall-size-100" ></mentor-card>
+        <mentor-card :image="link2" name="Danish Sheikh" qualification="Charisma Coach" class="md-layout-item md-xsmall-size-100" ></mentor-card>
+        <mentor-card :image="link3" name="Lavanyaa Dar" qualification="Beauty Entrepreneur" class="md-layout-item md-xsmall-size-100" ></mentor-card>
+        <mentor-card :image="link4" name="Lavanyaa Dar" qualification="Beauty Entrepreneur" class="md-layout-item md-xsmall-size-100" ></mentor-card>
     </div>
 
 </div>
@@ -48,4 +48,10 @@ export default {
     text-align: center;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 599px) {
+ 
+
+}
+
 </style>

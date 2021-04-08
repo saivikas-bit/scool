@@ -65,4 +65,25 @@ export default {
 ::-webkit-scrollbar {
   display: none;
 }
+@media screen and (max-width: 599px) {
+ 
+.title{
+    font-size: 16px;
+}
+.images{
+    flex: none;
+    display: inline-block;
+    height: 15vh;
+    width: 30vw;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+}
+
+
 </style>

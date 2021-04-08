@@ -43,5 +43,24 @@ export default {
 .content{
     text-align: center;
 }
+@media screen and (max-width: 599px) {
+    .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 1rem;
+    /* padding: 1rem 2rem; */
+    width: 100%;
+    height: 55vh;
+    /* height: 40vh; */
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+ 
+
+}
+
 
 </style>

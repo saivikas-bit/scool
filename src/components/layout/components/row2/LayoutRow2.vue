@@ -1,11 +1,11 @@
 <template>
   <div class="layout">
     <div class="md-layout md-gutter">
-    <div class="md-layout-item md-size-30">
+    <div class="md-layout-item md-size-30 md-xsmall-size-100">
      <key-takes></key-takes>
      <!-- dd -->
     </div>
-    <div class="md-layout-item ">
+    <div class="md-layout-item md-xsmall-size-100">
       <course-overview></course-overview>
     </div>
   </div>
@@ -37,4 +37,8 @@ components:{
 }
 
 
+@media screen and (max-width: 599px) {
+ 
+
+}
 </style>

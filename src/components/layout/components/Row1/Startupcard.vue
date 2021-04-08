@@ -8,9 +8,6 @@
         <div class=" md-layout md-alignment-center-space-between">
         <div class="md-layout-item title">Iphone videography for product</div>
     <div class="md-layout-item items"> <span class="strike_price">₹ 999</span> <span class="original_price">₹ 649</span> </div>
-    <div>
-        
-    </div>
     
     </div>
     <div class="md-layout">
@@ -46,6 +43,38 @@
     </div>
 
     </div>
+    <div class="card-content-mobile">
+        <div class="card_title">
+            STARTUP 101
+        </div>
+        <div class="card_content_body" style="margin-top:1rem">
+            <div>
+                <span style="width:20%;margin-right:1rem;opacity:50%">
+                <i class="fa fa-user" style="margin-right:0.5rem"></i>By Shashank 
+            </span>
+             <span style="width:20%;opacity:50%">
+                <i class="fa fa-user" style="margin-right:0.5rem"></i>By Shashank 
+            </span>
+
+            </div>
+            <div style="margin-top:1rem">
+                <span style="width:20%;margin-right:1rem;opacity:50%">
+                <i class="fa fa-user" style="margin-right:0.5rem"></i>By Shashank 
+            </span>
+             <span style="width:20%">
+                <span class="strike_price">₹ 999</span> <span class="original_price">₹ 649</span>
+            </span>
+
+            </div>
+            <div class="button_book">
+                <button class="btn_slot">Book A Slot</button>
+
+            </div>
+            
+
+        </div>
+
+    </div>
     
 
 </div>
@@ -59,6 +88,11 @@ export default {
 </script>
 
 <style scoped>
+
+.card-content-mobile{
+    display: none;
+}
+
 .card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 95%;
@@ -150,5 +184,57 @@ export default {
     align-items: center;
     margin-left: 2rem;
 }
-
+@media screen and (max-width: 599px) {
+    .card{
+    width: 100%;
+    height: 50vh;
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* z-index: -1; */
+}
+.card_image{
+    height: 48%;
+    position: absolute;
+}
+.card_content{
+    height: 50%;
+    bottom: 0;
+    padding: 0;
+    display: none;
+}
+.card-content-mobile{
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    padding: 1rem;
+    height: 59%;
+    width: 100%;
+    
+}
+.card_title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.original_price{
+    font-size: 16px;
+    margin: 0;
+}
+.button_book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_book button{
+    padding: 0.8rem 1rem;
+    background: red;
+    color: white;
+    border:0;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+}
 </style>
